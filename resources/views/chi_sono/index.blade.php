@@ -9,11 +9,13 @@
     <div class="container">
         <h1 class="text-center fw-bold py-4 mb-0">ABOUT ME</h1>
 
-        <div class="about_wrapper d-flex px-4 pb-5 justify-content-between">
+        <div class="about_wrapper d-flex flex-wrap px-4 pb-5 justify-content-between">
 
-            <img class="rounded" src="{{asset('img/img-3863.jpg')}}" alt="">
+            <div class="col-12 col-lg-5 text-center pb-4">
+                <img class="rounded img-fluid" src="{{asset('img/img-3863.jpg')}}" alt="">
+            </div>
 
-            <div class="col-7">
+            <div class="col-12 col-lg-7 px-2">
                 <p>
                     <span>Marta Goldin</span> (Noventa Vicentina, 1994) vive ad Este, dove si diploma in Grafica
                     Pubblicitaria

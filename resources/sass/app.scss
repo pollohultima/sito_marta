@@ -9,35 +9,51 @@ body{
 
 .container{
     background-color: white;
-}  
+} 
+
+.container-fluid{
+    background-color: white;
+}
+
+.active{
+    color: green!important;
+}
+
+.tog{
+    border: 2px solid lightgrey!important;
+}
 
 
 /* Site Header */
 
 header{
-    position: sticky;
-    top: 0px;
-    z-index: 1;
+     position: sticky;
+        top: 0px;
+        z-index: 1;
+    
+    nav{
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        height: 100px;
+        
+        .container{
+            border-bottom: 5px solid #ecf2ee;
+                
 
-    .container{
-       
-        border-bottom: 5px solid #ecf2ee;
+            a{
+                text-decoration: none;
+                color: black;
+                letter-spacing: 3px;
+                font-size: 14px;
+                padding: 10px 15px; 
+                font-weight: bolder;
 
-        .site_nav{
-            height: 100px;
-
-        a{
-            text-decoration: none;
-            color: black;
-            letter-spacing: 3px;
-            font-size: 14px;
-            padding: 0 15px; 
-
-            &:hover{
-                color: green;
+                &:hover{
+                    color: green!important;
+                }
             }
-         }
-    }
+        }
     }
 }
 
@@ -76,18 +92,6 @@ footer{
 /* Home */
 
 main{
-    
-    .jumbo{
-        .container{
-            padding-top: 125px;
-            
-            img{
-                height: 620px;
-                width: 100%;
-                object-fit: cover;
-            }
-            }
-        }
         
         .pubs{
             border-top: 5px solid #ecf2ee;
@@ -95,10 +99,11 @@ main{
                 .card_wrapper{
                     .card{
                         .img_wrap{
-                            height: 416px;
+                            height: 450px;
+                            margin-bottom: 10px;
                             img{
-                                
-                                object-fit: cover;
+                                height: 100%;
+                                 object-fit: cover; 
                             }
                         }
     

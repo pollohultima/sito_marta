@@ -11253,6 +11253,18 @@ body {
   background-color: white;
 }
 
+.container-fluid {
+  background-color: white;
+}
+
+.active {
+  color: green !important;
+}
+
+.tog {
+  border: 2px solid lightgrey !important;
+}
+
 /* Site Header */
 header {
   position: -webkit-sticky;
@@ -11260,21 +11272,26 @@ header {
   top: 0px;
   z-index: 1;
 }
-header .container {
-  border-bottom: 5px solid #ecf2ee;
-}
-header .container .site_nav {
+header nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
   height: 100px;
 }
-header .container .site_nav a {
+header nav .container {
+  border-bottom: 5px solid #ecf2ee;
+}
+header nav .container a {
   text-decoration: none;
   color: black;
   letter-spacing: 3px;
   font-size: 14px;
-  padding: 0 15px;
+  padding: 10px 15px;
+  font-weight: bolder;
 }
-header .container .site_nav a:hover {
-  color: green;
+header nav .container a:hover {
+  color: green !important;
 }
 
 /* Site Footer */
@@ -11297,22 +11314,15 @@ footer .container .foot_wrap .icon_wrapper .ig:hover {
 }
 
 /* Home */
-main .jumbo .container {
-  padding-top: 125px;
-}
-main .jumbo .container img {
-  height: 620px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
 main .pubs {
   border-top: 5px solid #ecf2ee;
 }
 main .pubs .container .card_wrapper .card .img_wrap {
-  height: 416px;
+  height: 450px;
+  margin-bottom: 10px;
 }
 main .pubs .container .card_wrapper .card .img_wrap img {
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }

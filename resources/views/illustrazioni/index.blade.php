@@ -39,7 +39,7 @@
                 <div class="carousel-item">
                     <img src="{{asset('img/730cc3d2-9c4c-4612-b277-82c4a2adbcca_orig.png')}}" class="d-block w-100"
                         alt="...">
-                    <div class="carousel-caption  d-md-block">
+                    <div class="carousel-caption d-md-block">
                         <h5 class="text-black fw-bold">“L’uovo ha una forma perfetta benché sia fatto col culo.” Omaggio
                             a Bruno
                             Munari, 2021 -
