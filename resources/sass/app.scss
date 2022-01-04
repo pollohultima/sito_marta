@@ -1,0 +1,195 @@
+@use 'bootstrap';
+
+/* Common */
+
+body{
+    font-family: 'Poppins', sans-serif ;
+    background-color: #ecf2ee;
+}
+
+.container{
+    background-color: white;
+}  
+
+
+/* Site Header */
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+    .container{
+       
+        border-bottom: 5px solid #ecf2ee;
+
+        .site_nav{
+            height: 100px;
+
+        a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 3px;
+            font-size: 14px;
+            padding: 0 15px; 
+
+            &:hover{
+                color: green;
+            }
+         }
+    }
+    }
+}
+
+
+/* Site Footer */
+
+footer{
+    .container{
+        padding: 20px 0;
+        border-top: 5px solid #ecf2ee;
+
+        .foot_wrap{
+            .icon_wrapper{
+                font-size: 30px;
+                a{
+                    text-decoration: none;
+                    color: gray;
+
+                }
+                .fb{
+                    &:hover{
+                        color: #3b5998;
+                    }
+                }
+
+                .ig{
+                    &:hover{
+                        color:#c837ac;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Home */
+
+main{
+    
+    .jumbo{
+        .container{
+            padding-top: 125px;
+            
+            img{
+                height: 620px;
+                width: 100%;
+                object-fit: cover;
+            }
+            }
+        }
+        
+        .pubs{
+            border-top: 5px solid #ecf2ee;
+            .container{
+                .card_wrapper{
+                    .card{
+                        .img_wrap{
+                            height: 416px;
+                            img{
+                                
+                                object-fit: cover;
+                            }
+                        }
+    
+                        &:hover{
+                            color: green
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+/* Illustrazioni */
+
+main{
+    .container{
+        .carousel-indicators [data-bs-target]{
+            background-color: lightgreen;
+        }
+
+        .carousel-item{
+            img{
+                width: 700px !important;
+                margin: auto;
+                padding-bottom: 100px;
+            }
+        }
+        .carousel-control-prev-icon {
+            background-color: lightgreen;
+            border-radius: 50%;
+        }
+
+        .carousel-control-next-icon {
+            background-color: lightgreen;
+            border-radius: 50%;
+        }
+    }
+}
+
+/* Shop */
+
+main{
+    .container{
+        h3{
+            a{
+                color: black;
+
+                &:hover{
+                    color:green;
+                }
+            }
+        }
+
+        .shop_wrapper{
+            width: 70%;
+            margin: auto;
+            
+            .row{
+                .col-6{
+                    h4{
+                        a{
+                            text-decoration: none;
+                            color: #da4444;
+
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* About Me */
+main{
+    .container{
+        .about_wrapper{
+            
+            .col-7{
+                p{
+                    span{
+                        font-weight: bold;
+                    }
+                }
+
+                
+
+            }
+        }
+    }
+}
