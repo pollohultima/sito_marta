@@ -13,14 +13,18 @@
             <input type="hidden" name="_captcha" value="false">
             <input type="hidden" name="_subject" value="Qualcuno ti ha contattata!">
             <input type="hidden" name="_next" value="{{route('home')}}">
-            <input type="text" name="name" placeholder="Inserisci il tuo nome" required>
-            <input type="email" name="email" placeholder="Inserisci il tuo indirizzo Email" required>
-            <input type="text" name="message" placeholder="Scrivi un messaggio" required>
+            <div class="form-group">
 
-            <button type="submit">Send</button>
+                <input type="email" class="form-control" name="email" placeholder="Inserisci Email" required>
+                <input type="text" class="form-control" name="name" placeholder="Inserisci il tuo nome" required>
+                <input type="text" class="form-control" name="lastname" placeholder="Inserisci il tuo cognome" required>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Scrivi un messaggio"></textarea>
+
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+
         </form>
-
-
     </div>
 </main>
 

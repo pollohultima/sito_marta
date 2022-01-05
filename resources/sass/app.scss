@@ -24,6 +24,7 @@ body{
 }
 
 
+
 /* Site Header */
 
 header{
@@ -39,8 +40,7 @@ header{
         
         .container{
             border-bottom: 5px solid #ecf2ee;
-                
-
+            
             a{
                 text-decoration: none;
                 color: black;
@@ -195,6 +195,18 @@ main{
                 
 
             }
+        }
+    }
+}
+
+
+/* Contatti */
+
+.container{
+    form{
+        .area_testo{
+            width: 300px;
+            height: 200px;
         }
     }
 }

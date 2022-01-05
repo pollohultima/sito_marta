@@ -11371,3 +11371,9 @@ main .container .shop_wrapper .row .col-6 h4 a:hover {
 main .container .about_wrapper .col-7 p span {
   font-weight: bold;
 }
+
+/* Contatti */
+.container form .area_testo {
+  width: 300px;
+  height: 200px;
+}
